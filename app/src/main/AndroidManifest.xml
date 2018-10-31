@@ -20,13 +20,7 @@
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".activities.RegisterActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -48,7 +42,24 @@
         <activity
             android:name=".activities.PostControlActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.FirstYearCivilMajorApplyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
+        </activity>
+        <activity android:name=".activities.FirstYearArchiMajorApplyActivity" />
+        <activity android:name=".activities.FirstYearECMajorApplyActivity" />
+        <activity android:name=".activities.FirstYearMPMajorApplyActivity" />
+        <activity android:name=".activities.FirstYearMCMajorApplyActivity" />
+        <activity android:name=".activities.FirstYearITMajorApplyActivity" />
+        <activity android:name=".activities.FirstYearEPMajorApplyActivity" />
+        <activity android:name=".activities.MajorDivisionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -7,7 +7,7 @@
     <org.mmtextview.components.MMTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Year(Civil)  လျှောက်ထားသူများစာရင်း" />
+        android:text="First Year(MC)  လျှောက်ထားသူများစာရင်း" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,10 +17,10 @@
         <org.mmtextview.components.MMTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Civil မေဂျာမှလက်ခံမည့်ကျောင်းသားဦးရေ" />
+            android:text="MC မေဂျာမှလက်ခံမည့်ကျောင်းသားဦးရေ" />
 
         <EditText
-            android:id="@+id/etStudentNumberForCivil"
+            android:id="@+id/etStudentNumberForMC"
             android:layout_width="100dp"
             android:layout_height="wrap_content" />
 
@@ -28,15 +28,15 @@
 
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerviewforFirstCivil"
+        android:id="@+id/recyclerviewforFirstMC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp" />
 
     <Button
-        android:id="@+id/divideForCivil"
+        android:id="@+id/divideForMC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Divied for civil" />
+        android:text="Divied for MC" />
 
 </LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MajorDivisionActivity">
+
+    <Button
+        android:id="@+id/btnCivilDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Civil"
+        />
+
+    <Button
+        android:id="@+id/btnEPDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EP"
+        android:layout_below="@id/btnCivilDivide"
+        />
+
+    <Button
+        android:id="@+id/btnECDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EC"
+        android:layout_below="@id/btnEPDivide"
+        />
+
+    <Button
+        android:id="@+id/btnITDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT"
+        android:layout_below="@id/btnECDivide"
+        />
+
+    <Button
+        android:id="@+id/btnMCDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MC"
+        android:layout_below="@id/btnITDivide"
+        />
+
+    <Button
+        android:id="@+id/btnMPDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MP"
+        android:layout_below="@id/btnMCDivide"
+        />
+
+    <Button
+        android:id="@+id/btnArchiDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Archi"
+        android:layout_below="@id/btnMPDivide"
+        />
+
+</RelativeLayout>

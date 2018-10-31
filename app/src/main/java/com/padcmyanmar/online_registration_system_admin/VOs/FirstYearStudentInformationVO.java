@@ -2,7 +2,50 @@ package com.padcmyanmar.online_registration_system_admin.VOs;
 
 public class FirstYearStudentInformationVO {
 
-    String StudentNameInMyanmar, FirstName, SecondName, ThirdName, FourthName, FifthName, SixthName, SeventhName, StudentNameInEnglish, StudentNRC, Marks, StudentBirthday, LastClass, FatherNameInMyanmar, FatherNameInEnglish, FatherNRC, FatherJob, MotherNameInMyanmar, MotherNameInEnglish, MotherNRC, MotherJob, Address, StudentPhoneNumber, PermanentAddress, PermanentPhoneNumber;
+    String StudentNameInMyanmar;
+    String FirstName;
+    String SecondName;
+    String ThirdName;
+    String FourthName;
+    String FifthName;
+    String SixthName;
+    String SeventhName;
+    String StudentNameInEnglish;
+    String StudentNRC;
+    String Marks;
+    String StudentBirthday;
+    String LastClass;
+    String FatherNameInMyanmar;
+    String FatherNameInEnglish;
+    String FatherNRC;
+    String FatherJob;
+    String MotherNameInMyanmar;
+    String MotherNameInEnglish;
+    String MotherNRC;
+    String MotherJob;
+    String Address;
+    String StudentPhoneNumber;
+    String PermanentAddress;
+    String PermanentPhoneNumber;
+    String Key;
+
+    public String getKey() {
+        return Key;
+    }
+
+    public void setKey(String key) {
+        Key = key;
+    }
+
+    public String getNo() {
+        return No;
+    }
+
+    public void setNo(String no) {
+        No = no;
+    }
+
+    String No;
 
     public FirstYearStudentInformationVO() {
     }
@@ -47,8 +90,9 @@ public class FirstYearStudentInformationVO {
         return FirstName;
     }
 
-    public void setFirstName(String firstName) {
+    public Object setFirstName(String firstName) {
         FirstName = firstName;
+        return FirstName;
     }
 
     public String getSecondName() {
