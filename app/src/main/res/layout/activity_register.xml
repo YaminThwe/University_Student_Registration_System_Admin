@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity"
+    android:background="@drawable/background"
+    >
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnForFirstYear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="First Year ကျောင်းအပ်လက်ခံရန်"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnForSecondYear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Second Year ကျောင်းအပ်လက်ခံရန်"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnForFirstYear"
+        android:textAllCaps="false"
+        android:layout_marginTop="25dp"
+        />
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnForThirdYear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnForSecondYear"
+        android:layout_centerHorizontal="true"
+        android:text="Third Year ကျောင်းအပ်လက်ခံရန်"
+        android:textAllCaps="false"
+        android:layout_marginTop="25dp"
+        />
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnForForthYear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_below="@id/btnForThirdYear"
+        android:layout_centerHorizontal="true"
+        android:text="Fourth Year ကျောင်းအပ်လက်ခံရန်"
+        android:layout_marginTop="25dp"
+        />
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnforFifthYear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnForForthYear"
+        android:text="Fifth Year ကျောင်းအပ်လက်ခံရန်"
+        android:layout_marginTop="25dp"
+        />
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnForSixthYear"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_below="@id/btnforFifthYear"
+        android:layout_centerHorizontal="true"
+        android:text="Sixth Year ကျောင်းအပ်လက်ခံရန်"
+        android:layout_marginTop="25dp"
+        />
+
+
+
+</RelativeLayout>

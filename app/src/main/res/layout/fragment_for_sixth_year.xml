@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    >
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnSixthYearIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSixthYearArchi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Information Technology"
+        android:textAllCaps="false"/>
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnSixthYearEC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSixthYearCivil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Electronic and Communication"
+        android:textAllCaps="false"/>
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnSixthYearEP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSixthYearEC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Electrical Power"
+        android:textAllCaps="false"/>
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnSixthYearArchi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSixthYearMC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Architecture"
+        android:textAllCaps="false"/>
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnSixthYearMP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSixthYearEP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Mechanical Power"
+        android:textAllCaps="false"/>
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnSixthYearMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSixthYearMP"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Mechatronic"
+        android:textAllCaps="false"/>
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnSixthYearCivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Civil"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

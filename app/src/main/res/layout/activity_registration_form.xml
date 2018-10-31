@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.RegistrationFormActivity">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="3dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp">
+
+                <org.mmtextview.components.MMTextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Technological University"
+                    android:textSize="28sp"
+                    android:typeface="serif"
+                    android:layout_centerHorizontal="true"
+                    />
+                <org.mmtextview.components.MMTextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(2017 - 2018) ပညာသင်နှစ်"
+                    android:textSize="20sp"
+                    android:layout_below="@id/title"
+                    android:typeface="serif"
+                    android:layout_centerHorizontal="true"
+                    />
+                <org.mmtextview.components.MMTextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ကျောင်းဝင်ခွင့်လျှောက်လွှာ"
+                    android:textSize="20sp"
+                    android:typeface="serif"
+                    android:layout_below="@id/title2"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <ImageView
+                    android:id="@+id/ivStudentPhoto"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#cfd8dc"
+                    android:scaleType="centerCrop"
+                    android:layout_below="@id/title3"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/license" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/ivStudentPhoto"
+                    android:layout_marginTop="20dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အမည်(မြန်မာ)"
+                            />
+                        <EditText
+                            android:id="@+id/etStudentNameInMyanmar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အမည်(အင်္ဂလိပ်)"
+                            />
+
+                        <EditText
+                            android:id="@+id/etStudentNameInEnglish"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="မှတ်ပုံတင်အမှတ်"
+                            />
+
+                        <EditText
+                            android:id="@+id/etStudentNRC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="၁၂/ ဥကမ(နိုင်) ၀၂၅၀၂၁"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="မွေးနေ့"
+                            />
+
+                        <EditText
+                            android:id="@+id/etStudentBirthday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="21.7.1996"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="နောက်ဆုံးအောင်မြင်ခဲ့သည့်အတန်း"
+                            />
+
+                        <EditText
+                            android:id="@+id/etLastClass"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Grade - 11"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အဘအမည်(မြန်မာ)"
+                            />
+
+                        <EditText
+                            android:id="@+id/etFatherNameInMyanmar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ဦးလှ"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အဘအမည်(အင်္ဂလိပ်)"
+                            />
+
+                        <EditText
+                            android:id="@+id/etFatherNameInEnglish"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="U Hla"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="မှတ်ပုံတင်အမှတ်"
+                            />
+
+                        <EditText
+                            android:id="@+id/etFatherNRC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="၁၂/ဥကမ(နိုင်) 034082"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အဘ၏အလုပ်အကိုင်"
+                            />
+
+                        <EditText
+                            android:id="@+id/etFatherJob"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Taxi Driver"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အမိအမည်(မြန်မာ)"
+                            />
+
+                        <EditText
+                            android:id="@+id/etMotherNameInMyanmar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="ဒေါ်မြ"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အမိအမည်(အင်္ဂလိပ်)"
+                            />
+
+                        <EditText
+                            android:id="@+id/etMotherNameInEnglish"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Daw Mya"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="မှတ်ပုံတင်အမှတ်"
+                            />
+
+                        <EditText
+                            android:id="@+id/etMotherNRC"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="၁၂/ဥကမ(နိုင်) 258964"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အမိ၏အလုပ်အကိုင်"
+                            />
+
+                        <EditText
+                            android:id="@+id/etMotherJob"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="မှီခို"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ဆက်သွယ်ရန်လိပ်စာ"
+                            />
+
+                        <EditText
+                            android:id="@+id/etAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Yangon"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ဖုန်းနံပါတ်"
+                            />
+
+                        <EditText
+                            android:id="@+id/etStudentPhoneNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="09254067252"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="အမြဲတန်းနေရပ်လိပ်စာ"
+                            />
+
+                        <EditText
+                            android:id="@+id/etPermanentAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Yangon"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <org.mmtextview.components.MMTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="ဖုန်းနံပါတ်"
+                            />
+
+                        <EditText
+                            android:id="@+id/etPermanentPhoneNumber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="09254067252"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linearLayout"
+                    android:layout_alignParentEnd="true"
+                    >
+
+                    <ImageView
+                        android:id="@+id/ivSign"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:scaleType="center"
+                        android:background="#cfd8dc"
+                        android:src="@drawable/signature"
+                        android:layout_marginTop="20dp"
+                        />
+
+                    <org.mmtextview.components.MMTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="လက်မှတ်"
+                        android:layout_below="@id/ivSign"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        />
+                </RelativeLayout>
+
+                <org.mmtextview.components.MMTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relativeLayout"
+                    android:text="အမည်"
+                    android:layout_toStartOf="@id/etName"
+                    android:layout_alignBottom="@id/etName"
+                    />
+                <EditText
+                    android:id="@+id/etName"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relativeLayout"
+                    android:layout_alignParentEnd="true"
+                    />
+
+                <org.mmtextview.components.MMButton
+                    android:id="@+id/btnPostForm"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etName"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:text="လျှောက်လွှာအပ်မည်"
+                    />
+
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "774231586105",
+    "firebase_url": "https://university-student-registratio.firebaseio.com",
+    "project_id": "university-student-registratio",
+    "storage_bucket": "university-student-registratio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774231586105:android:31196e2e2cf5a5bd",
+        "android_client_info": {
+          "package_name": "com.padcmyanmar.online_registration_system_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774231586105-bdo5m4kmslk32k7uj3o7cs15mlt3dvqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.padcmyanmar.online_registration_system_admin",
+            "certificate_hash": "435878cec41fc2f6c8fad977e434db49d2e0346f"
+          }
+        },
+        {
+          "client_id": "774231586105-clnr3s1cmv9orlutgsg0fg7b3j21fptl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4YhjDu4dWL-ail5oTMxjt7IAGXr8bVYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774231586105-clnr3s1cmv9orlutgsg0fg7b3j21fptl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774231586105:android:1c6848796f414709",
+        "android_client_info": {
+          "package_name": "com.padcmyanmar.onlineregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774231586105-a6uuhcknenh23d6rssa085cpae9us08f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.padcmyanmar.onlineregistration",
+            "certificate_hash": "435878cec41fc2f6c8fad977e434db49d2e0346f"
+          }
+        },
+        {
+          "client_id": "774231586105-clnr3s1cmv9orlutgsg0fg7b3j21fptl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4YhjDu4dWL-ail5oTMxjt7IAGXr8bVYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774231586105-clnr3s1cmv9orlutgsg0fg7b3j21fptl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774231586105:android:05fd486e0cd6bc0d",
+        "android_client_info": {
+          "package_name": "com.padcmyanmar.registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774231586105-641unm7gd50bca4onrs0o06ee5p21nmr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.padcmyanmar.registration",
+            "certificate_hash": "435878cec41fc2f6c8fad977e434db49d2e0346f"
+          }
+        },
+        {
+          "client_id": "774231586105-clnr3s1cmv9orlutgsg0fg7b3j21fptl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4YhjDu4dWL-ail5oTMxjt7IAGXr8bVYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774231586105-clnr3s1cmv9orlutgsg0fg7b3j21fptl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

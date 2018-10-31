@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Online_Registration_System_Admin</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first_year_major_control">FirstYearMajorControlActivity</string>
+</resources>

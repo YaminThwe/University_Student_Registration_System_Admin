@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ကျောင်းအပ်လက်ခံမယ်"
+        android:layout_below="@id/btnStudentTable"
+        android:layout_centerHorizontal="true"
+        />
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegistration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Post တင်မယ်"
+        android:textAllCaps="false" />
+
+    <org.mmtextview.components.MMButton
+        android:id="@+id/btnStudentTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:text="မေဂျာအလိုက်ကျောင်းသားစာရင်းများ" />
+
+
+</RelativeLayout>
+
+
